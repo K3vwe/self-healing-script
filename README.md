@@ -2,10 +2,6 @@
 
 Overview 📝
     The Self-Healing Python Script is designed to monitor, detect, and automatically resolve common runtime errors and system issues in a Python environment. It ensures your scripts stay up and running with minimal human intervention.
-<<<<<<< HEAD
-
-=======
->>>>>>> 0b1176d (Add README.md for self-healing-script)
     Perfect for DevOps engineers, sysadmins, and developers who need automated resilience for critical processes. 🚀
 
 Features ✨
@@ -29,18 +25,11 @@ Usage 🚀
     Runs continuously to monitor your target scripts.
     Recovery actions and error handling rules can be configured in config.yaml. 🛠
 
-<<<<<<< HEAD
-Configuration ⚙
-    ``` monitor:
-            scripts:
-             - path: /path/to/your/script.py
-=======
 Configuration ⚙ 
     ```
         monitor:
             scripts:
                 - path: /path/to/your/script.py
->>>>>>> 0b1176d (Add README.md for self-healing-script)
                 restart_on_failure: true
 
         alerts:
