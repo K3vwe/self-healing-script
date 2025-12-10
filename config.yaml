@@ -1,0 +1,17 @@
+monitor:
+  scripts:
+    - path: /yourScriptPath1
+      restart_on_failure: True
+    - path: /yourScriptPath2
+      restart_on_failure: True
+    - path: /yourScriptPath3
+      restart_on_failure: True
+    - path: /yourScriptPath4
+      restart_on_failure: True
+    - path: /yourScriptPath5
+      restart_on_failure: True
+
+thresholds:
+  cpu_usage: 85
+  memory_usage: 90
+  disk_usage: 80
